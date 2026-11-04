@@ -1,10 +1,5 @@
 {
-  "version": "1.0.1",
-  "date": "2026-11-04",
-  "url": "https://github.com/Raonworks2026/OulimPlayer/releases",
-  "windows": {
-    "msi": "http://127.0.0.1:8765/OulimPlayer-windows-x64.msi",
-    "sha256": "7996c3f8d2c200448ed805b0f85cc1a0b1930df149ef65f069db9a42b7674a3e"
-  },
-  "sig": "s4x6wklDqeku7V40nkw9oS0Z5DiN+pLNGi602vKO3gU0VB2S9PPIV1By2Rwi20N6Sh+6BrRKN6H4cdMFhAxVAg=="
+  "version": null,
+  "date": null,
+  "url": null
 }
