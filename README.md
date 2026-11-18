@@ -4,9 +4,9 @@
 
 Clips on your phone, movies on your NAS, series collected on your PC — one app plays them all on phone, tablet, TV and desktop.
 
-This repository hosts the **Windows and macOS installers** of Oulim Player. It contains no source code.
+This repository hosts the **Windows and macOS installers** and the **NAS compose file** of Oulim Player. It contains no source code.
 
-[한국어](README.ko.md)
+🌐 [Homepage](https://oulim.pages.dev/en/) &nbsp;·&nbsp; [한국어](README.ko.md)
 
 ## Download
 
@@ -14,6 +14,7 @@ This repository hosts the **Windows and macOS installers** of Oulim Player. It c
 |---|---|---|
 | Windows 10 / 11 (64-bit) | `OulimPlayer-windows-x64.msi` | Coming soon |
 | macOS | `OulimPlayer-macos.dmg` | Coming soon |
+| NAS (Docker · x64 · ARM64) | `nas/compose.yaml` | Coming soon (beta) |
 
 All versions and release notes: [Releases](https://github.com/Raonworks2026/OulimPlayer/releases)
 
@@ -25,6 +26,7 @@ Phones, tablets and TVs get Oulim Player from their app store (Google Play · Ap
 - **One library** — folders from this PC, your NAS and other PCs, sorted into movies, series and music, with posters and Continue watching.
 - **Straight from your NAS** — SMB, SFTP, WebDAV and DLNA, played directly. No downloading, no transcoding.
 - **Your PC as a NAS** — leave Oulim Player running and your phone and TV can watch this PC's videos, even away from home, with no relay server.
+- **Runs on your NAS (beta)** — install Oulim Player NAS on a NAS that runs Docker, and it organizes your videos and streams them to your phone and TV with no PC left on.
 - **Your history stays yours** — watch history, resume points and NAS passwords stay on this device. No account, no cloud, no analytics.
 
 ## Install
@@ -40,9 +42,16 @@ Phones, tablets and TVs get Oulim Player from their app store (Google Play · Ap
 
 Coming soon.
 
+### NAS (Docker, beta)
+
+Oulim Player NAS will be published together with the app launch — it can't be installed yet.
+Step-by-step instructions are in the guide [Install Oulim on a NAS (beta)](https://oulim.pages.dev/en/guides/nas/).
+
 ### Updates
 
 Oulim Player for desktop checks once a day whether a newer version is out — it asks only for the latest version number and sends no device information. If there is one, it shows a link to the release here. It never installs anything by itself, and you can turn the check off with **Settings › Privacy & lock › Check for updates automatically**.
+
+Oulim Player NAS doesn't update itself either. When a new version is out, its admin page tells you and shows how to update on your NAS.
 
 ## Free and Pro
 
@@ -51,7 +60,7 @@ Pro is bought separately on each platform. A Pro phone, tablet or TV that you ha
 
 ## Questions and problems
 
-- **Something went wrong?** In the app, open **Settings › About & Pro › Help › Report a problem**. You see exactly what will be sent before you press Send, and nothing is sent until you do.
+- **Something went wrong?** In the app, open **Settings › About & Pro › Help › Report a problem**. On a NAS, use **Report a problem** at the bottom left of the admin page. Nothing is sent until you press Send, and personal details such as addresses and paths are masked.
 
 ## Open source
 
