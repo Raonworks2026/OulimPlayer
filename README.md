@@ -6,7 +6,7 @@ Clips on your phone, movies on your NAS, series collected on your PC — one app
 
 This repository hosts the **Windows and macOS installers** and the **NAS compose file** of Oulim Player. It contains no source code.
 
-🌐 [Homepage](https://oulim.pages.dev/en/) &nbsp;·&nbsp; [한국어](README.ko.md)
+🌐 [Homepage](https://oulim.app/en/) &nbsp;·&nbsp; [한국어](README.ko.md)
 
 ## Download
 
@@ -45,7 +45,7 @@ Coming soon.
 ### NAS (Docker, beta)
 
 Oulim Player NAS will be published together with the app launch — it can't be installed yet.
-Step-by-step instructions are in the guide [Install Oulim on a NAS (beta)](https://oulim.pages.dev/en/guides/nas/).
+Step-by-step instructions are in the guide [Install Oulim on a NAS (beta)](https://oulim.app/en/guides/nas/).
 
 ### Updates
 

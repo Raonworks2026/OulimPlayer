@@ -6,7 +6,7 @@
 
 이 저장소는 Oulim Player의 **Windows · macOS 설치 파일**과 **NAS용 compose 파일**을 내려받는 곳이에요. 소스 코드는 없어요.
 
-🌐 [홈페이지](https://oulim.pages.dev/ko/) &nbsp;·&nbsp; [English](README.md)
+🌐 [홈페이지](https://oulim.app/ko/) &nbsp;·&nbsp; [English](README.md)
 
 ## 내려받기
 
@@ -45,7 +45,7 @@
 ### NAS (Docker, 베타)
 
 앱 출시와 함께 공개해요. 지금은 아직 설치할 수 없어요.
-설치 방법은 홈페이지 설명서 [NAS에 Oulim 설치하기 (베타)](https://oulim.pages.dev/ko/guides/nas/)에 있어요.
+설치 방법은 홈페이지 설명서 [NAS에 Oulim 설치하기 (베타)](https://oulim.app/ko/guides/nas/)에 있어요.
 
 ### 업데이트
 

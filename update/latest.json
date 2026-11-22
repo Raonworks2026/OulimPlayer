@@ -1,5 +1,15 @@
 {
-  "version": null,
-  "date": null,
-  "url": null
+  "version": "0.9.0",
+  "date": "2026-11-22",
+  "url": "https://github.com/Raonworks2026/OulimPlayer/releases/tag/v0.9.0-beta",
+  "windows": {
+    "msi": "https://github.com/Raonworks2026/OulimPlayer/releases/download/v0.9.0-beta/OulimPlayer-windows-x64.msi",
+    "sha256": "e180243c57882cc193057a8d490d224ad0b12041e9a4cad7a2d8422fcc1d3edb"
+  },
+  "sig": "SFI0BU40ikH/20s3+tH1l2ts7INhzWnxBv57mH0jF2XctB3SUjQTj/k+AcEz/EK2odblK05NCBh8M5Ym0f4uDw==",
+  "mac": {
+    "dmg": "https://github.com/Raonworks2026/OulimPlayer/releases/download/v0.9.0-beta/OulimPlayer-macos.dmg",
+    "sha256": "7204c30eb58ab01e2b648cd5e1f92106eaee77f752b21c2be4b921de3c8236d5",
+    "sig": "HCeRUl1l6lBbJvgaGtIskYyRTo9JpU+kJvT5VVFxaAp4WPFnzsorsMFHfhigepuECN1R4H8rlazU8iZEKjtNDw=="
+  }
 }
