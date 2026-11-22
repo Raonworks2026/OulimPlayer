@@ -1,0 +1,20 @@
+# Oulim Player NAS (beta)
+# Guide: https://oulim.app/en/guides/nas/
+#
+# 1. Change the two marked lines (your storage path and your NAS user id).
+# 2. docker compose up -d
+# 3. Open http://<NAS address>:45800 and enter the setup code from: docker logs oulim-player
+services:
+  oulim-player:
+    image: ghcr.io/raonworks2026/oulim-player-nas:beta
+    container_name: oulim-player
+    network_mode: host
+    user: "1000:1000"              # <- your NAS user id (id -u : id -g)
+    environment:
+      - OULIM_NAME=Oulim NAS
+      - OULIM_MEDIA=/volume1       # folders you can add in the admin page (several: /volume1:/volume2)
+    volumes:
+      - ./config:/config
+      - ./cache:/cache
+      - /volume1:/volume1:ro       # <- your video storage, read-only
+    restart: unless-stopped
