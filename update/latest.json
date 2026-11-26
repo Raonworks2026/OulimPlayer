@@ -1,15 +1,15 @@
 {
-  "version": "0.9.1",
-  "date": "2026-11-24",
-  "url": "https://github.com/Raonworks2026/OulimPlayer/releases/tag/v0.9.1-beta",
+  "version": "1.0.0",
+  "date": "2026-11-26",
+  "url": "https://github.com/Raonworks2026/OulimPlayer/releases/tag/v1.0.0",
   "windows": {
-    "msi": "https://github.com/Raonworks2026/OulimPlayer/releases/download/v0.9.1-beta/OulimPlayer-windows-x64.msi",
-    "sha256": "202a651da3ea114d7c45175336367f6652aa53d14ec730dcc9ac123732000b5b"
+    "msi": "https://github.com/Raonworks2026/OulimPlayer/releases/download/v1.0.0/OulimPlayer-windows-x64.msi",
+    "sha256": "b0e93bda5ec77bcedc6634258c996d942c47b41b737456ef80646a09e0cd69f9"
   },
-  "sig": "LB/MM0JWdf+h3LNCyxllDTO4dnxqvDFZ8gsUD2gLIxgxbH2qkM4L+NUu2OrKF208NUxXwbYknyCQqjjps48KBQ==",
+  "sig": "U2aozY7EdXQ7z4Jt0YZRu/N0xzc2K+fOdrEd9NGX5o0TGoPii2Tzv00CEOlgdpTQnQZtysh95oDv2U3jE4o4DQ==",
   "mac": {
-    "dmg": "https://github.com/Raonworks2026/OulimPlayer/releases/download/v0.9.1-beta/OulimPlayer-macos.dmg",
-    "sha256": "556d4622af4dbb9fe35342a9ad3c59b5df8be96d73631f0a9907f167751d86d7",
-    "sig": "vWRoJm0f5i2ja61t+6i182liWpb2Cy1CS4pE+Lelr75JvyXSrjWHPRs8I4Q2d3xk7GvrO68T3/ryX/uuuEVbAQ=="
+    "dmg": "https://github.com/Raonworks2026/OulimPlayer/releases/download/v1.0.0/OulimPlayer-macos.dmg",
+    "sha256": "ae5d714ac76f0aa6333bc1c67e630910506e4fcff002945ba2679479e18db674",
+    "sig": "QkESmUs49iEUgRfDG4cznlBJcHeGuoveo0P8WjEdDv/kcMWxFMdhPrm1olrSpcqcpcWwYNIUQkahAUW22/H6Bw=="
   }
 }
